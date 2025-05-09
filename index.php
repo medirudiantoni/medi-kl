@@ -2,6 +2,7 @@
 <?php 
     // Tidak ditemukan customer_id 4 pada Orders column customer_id.
     // sehingga pelanggan yang tidak membuat pesanan adalah customer dengan customer_id 4 yaitu | 4           | Delta Corp    | Madrid        |
+    // select c.customer_id, c.customer_name from customer c left join orders o on c.customer_id = o.customer_id where o.customer_id is null
 ?>
 
 <!-- Jawaban No 2 -->
